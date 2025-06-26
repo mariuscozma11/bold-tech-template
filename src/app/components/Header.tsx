@@ -8,24 +8,24 @@ const Header = () => {
         <div className="container mx-auto px-4 lg:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Settings className="h-8 w-8 text-orange-500" />
-            <span className="text-xl font-bold">PrecisionWorks</span>
+            <span className="text-xl font-bold">CompaniaTa</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-sm font-medium hover:text-orange-500 transition-colors">
-              Services
+              Servicii
             </a>
             <a href="#portfolio" className="text-sm font-medium hover:text-orange-500 transition-colors">
-              Portfolio
+              Portofoliu
             </a>
             <a href="#process" className="text-sm font-medium hover:text-orange-500 transition-colors">
-              Process
+              Proces
             </a>
             <a href="#contact" className="text-sm font-medium hover:text-orange-500 transition-colors">
               Contact
             </a>
           </nav>
           <Button className="px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-md font-medium transition-colors">
-            Request Quote
+            Cere Oferta
           </Button>
         </div>
       </header>
