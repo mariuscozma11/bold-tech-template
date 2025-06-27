@@ -73,17 +73,17 @@ const Howitworks = () => {
           </div>
 
           <div className="mt-16 text-center">
-            <div className="inline-flex items-center space-x-8 p-6 bg-slate-900 rounded-lg border border-slate-700">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 p-6 bg-slate-900 rounded-lg border border-slate-700">
               <div className="flex items-center space-x-2">
                 <Clock className="h-5 w-5 text-orange-500" />
                 <span className="text-sm text-slate-300">Fast turnaround: 1-10 days</span>
               </div>
-              <Separator orientation="vertical" className="h-6 bg-slate-600" />
+              <Separator orientation="vertical" className="h-6 bg-slate-600 hidden md:block" />
               <div className="flex items-center space-x-2">
                 <Shield className="h-5 w-5 text-orange-500" />
                 <span className="text-sm text-slate-300">NDA protection available</span>
               </div>
-              <Separator orientation="vertical" className="h-6 bg-slate-600" />
+              <Separator orientation="vertical" className="h-6 bg-slate-600 hidden md:block"  />
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-5 w-5 text-orange-500" />
                 <span className="text-sm text-slate-300">Quality guaranteed</span>

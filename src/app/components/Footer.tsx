@@ -13,7 +13,8 @@ const Footer = () => {
                 <span className="text-lg font-bold">PrecisionWorks</span>
               </div>
               <p className="text-sm text-slate-400">
-                Your trusted partner for precision manufacturing and rapid prototyping solutions.
+                Sloganul companiei tale, care reflecta misiunea si valorile
+                acesteia. Poti adauga aici o scurta descriere sau motto.
               </p>
             </div>
 
@@ -22,22 +23,22 @@ const Footer = () => {
               <ul className="space-y-2 text-sm text-slate-400">
                 <li>
                   <a href="#services" className="hover:text-orange-500 transition-colors">
-                    CNC Machining
+                    Service 1
                   </a>
                 </li>
                 <li>
                   <a href="#services" className="hover:text-orange-500 transition-colors">
-                    3D Printing
+                    Service 2
                   </a>
                 </li>
                 <li>
                   <a href="#services" className="hover:text-orange-500 transition-colors">
-                    Sheet Metal
+                    Service 3
                   </a>
                 </li>
                 <li>
                   <a href="#services" className="hover:text-orange-500 transition-colors">
-                    Prototyping
+                    Service 4
                   </a>
                 </li>
               </ul>
@@ -48,43 +49,43 @@ const Footer = () => {
               <ul className="space-y-2 text-sm text-slate-400">
                 <li>
                   <a href="#portfolio" className="hover:text-orange-500 transition-colors">
-                    Aerospace
+                    Industrie 1
                   </a>
                 </li>
                 <li>
                   <a href="#portfolio" className="hover:text-orange-500 transition-colors">
-                    Medical
+                    Industrie 2
                   </a>
                 </li>
                 <li>
                   <a href="#portfolio" className="hover:text-orange-500 transition-colors">
-                    Automotive
+                    Industrie 3
                   </a>
                 </li>
                 <li>
                   <a href="#portfolio" className="hover:text-orange-500 transition-colors">
-                    Electronics
+                    Industrie 4
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="space-y-4">
-              <h3 className="font-semibold text-white">Company</h3>
+              <h3 className="font-semibold text-white">Companie</h3>
               <ul className="space-y-2 text-sm text-slate-400">
                 <li>
                   <a href="#" className="hover:text-orange-500 transition-colors">
-                    About Us
+                    Despre
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-orange-500 transition-colors">
-                    Quality
+                    Calitate
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-orange-500 transition-colors">
-                    Careers
+                    Cariere
                   </a>
                 </li>
                 <li>
@@ -99,16 +100,16 @@ const Footer = () => {
           <Separator className="my-8 bg-slate-800" />
 
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-slate-400">© {new Date().getFullYear()} PrecisionWorks. All rights reserved.</p>
+            <p className="text-sm text-slate-400">© {new Date().getFullYear()} LagrangeEngineering. Toate drepturile rezervate.</p>
             <div className="flex space-x-6 text-sm text-slate-400">
               <a href="#" className="hover:text-orange-500 transition-colors">
-                Privacy Policy
+                Politica de confidentialitate
               </a>
               <a href="#" className="hover:text-orange-500 transition-colors">
-                Terms of Service
+                Termeni si conditii
               </a>
               <a href="#" className="hover:text-orange-500 transition-colors">
-                ISO Certificates
+                Certificate ISO
               </a>
             </div>
           </div>

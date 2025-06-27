@@ -25,7 +25,7 @@ const Header = () => {
             </a>
           </nav>
           <Button className="px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-md font-medium transition-colors">
-            Cere Oferta
+            Buton Actiune
           </Button>
         </div>
       </header>

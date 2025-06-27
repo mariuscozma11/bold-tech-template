@@ -13,10 +13,9 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             <div className="space-y-8">
               <div className="space-y-4">
-                <h2 className="text-3xl lg:text-4xl font-bold">Ready to Start Your Project?</h2>
+                <h2 className="text-3xl lg:text-4xl font-bold">Pregatit sa incepi proiectul?</h2>
                 <p className="text-xl text-slate-300">
-                  Get in touch with our engineering team to discuss your requirements. We&apos;re here to help bring your
-                  ideas to life.
+                  Suntem aici pentru a vă ajuta cu orice proiect de prelucrare sau producție. Completați formularul sau contactați-ne direct pentru o ofertă rapidă și personalizată.
                 </p>
               </div>
 
@@ -26,13 +25,13 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-orange-500" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-white mb-1">Location</h3>
+                    <h3 className="font-semibold text-white mb-1">Locatie</h3>
                     <p className="text-slate-300">
-                      1234 Manufacturing Drive
+                      Str. Cozma Marius Nr. 11
                       <br />
-                      Industrial Park, CA 90210
+                      ITimisoara, Timis 
                       <br />
-                      United States
+                      Romania
                     </p>
                   </div>
                 </div>
@@ -42,9 +41,9 @@ const Contact = () => {
                     <Phone className="h-6 w-6 text-orange-500" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-white mb-1">Phone</h3>
-                    <p className="text-slate-300">+1 (555) 123-4567</p>
-                    <p className="text-sm text-slate-400">Mon-Fri 8AM-6PM PST</p>
+                    <h3 className="font-semibold text-white mb-1">Telefon</h3>
+                    <p className="text-slate-300">+40 712 345 678</p>
+                    <p className="text-sm text-slate-400">L-V 8:00-18:00</p>
                   </div>
                 </div>
 
@@ -54,14 +53,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white mb-1">Email</h3>
-                    <p className="text-slate-300">quotes@precisionworks.com</p>
-                    <p className="text-sm text-slate-400">24/7 quote requests</p>
+                    <p className="text-slate-300">exemplu@email.com</p>
+                    <p className="text-sm text-slate-400">24/7 cereri de oferta</p>
                   </div>
                 </div>
               </div>
 
               <div className="space-y-4">
-                <h3 className="font-semibold text-white">Supported File Types</h3>
+                <h3 className="font-semibold text-white">Tipuri de fisiere acceptate</h3>
                 <div className="flex flex-wrap gap-2">
                   {[".step", ".iges", ".stl", ".dwg", ".pdf", ".sldprt", ".ipt", ".prt"].map((type) => (
                     <Badge key={type} variant="outline" className="border-slate-600 text-slate-300">
@@ -74,40 +73,40 @@ const Contact = () => {
               <div className="pt-4">
                 <Button variant="outline" className="border-slate-600 text-white hover:bg-slate-800">
                   <Download className="mr-2 h-4 w-4" />
-                  Download NDA Template
+                  Descarca modelul de NDA
                 </Button>
               </div>
             </div>
 
             <Card className="bg-slate-800 border-slate-700">
               <CardHeader>
-                <CardTitle className="text-white">Request a Quote</CardTitle>
+                <CardTitle className="text-white">Cere o oferta</CardTitle>
                 <CardDescription className="text-slate-400">
-                  Fill out the form below and we&apos;ll get back to you within 24 hours
+                  Completeaza formularul de mai jos si te vom contacta in termen de 24 de ore
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-white">First Name</label>
+                    <label className="text-sm font-medium text-white">Prenume</label>
                     <Input
-                      placeholder="John"
+                      placeholder="Marius"
                       className="bg-slate-900 border-slate-600 text-white placeholder:text-slate-400"
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-white">Last Name</label>
+                    <label className="text-sm font-medium text-white">Nume</label>
                     <Input
-                      placeholder="Doe"
+                      placeholder="Cozma"
                       className="bg-slate-900 border-slate-600 text-white placeholder:text-slate-400"
                     />
                   </div>
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-sm font-medium text-white">Company</label>
+                  <label className="text-sm font-medium text-white">Companie</label>
                   <Input
-                    placeholder="Your Company"
+                    placeholder="Compania ta"
                     className="bg-slate-900 border-slate-600 text-white placeholder:text-slate-400"
                   />
                 </div>
@@ -116,15 +115,15 @@ const Contact = () => {
                   <label className="text-sm font-medium text-white">Email</label>
                   <Input
                     type="email"
-                    placeholder="john@company.com"
+                    placeholder="exemplu@email.com"
                     className="bg-slate-900 border-slate-600 text-white placeholder:text-slate-400"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-sm font-medium text-white">Project Details</label>
+                  <label className="text-sm font-medium text-white">Detalii Proiect</label>
                   <Textarea
-                    placeholder="Describe your project requirements, materials, quantities, and timeline..."
+                    placeholder="Descrie cerintele, materialele, cantitatile si termenul de livrare pentru proiectul tau..."
                     className="bg-slate-900 border-slate-600 text-white placeholder:text-slate-400 min-h-[120px]"
                   />
                 </div>
@@ -133,12 +132,12 @@ const Contact = () => {
                   <label className="text-sm font-medium text-white">Upload Files</label>
                   <div className="border-2 border-dashed border-slate-600 rounded-lg p-6 text-center hover:border-orange-500/50 transition-colors cursor-pointer">
                     <Upload className="h-8 w-8 text-slate-400 mx-auto mb-2" />
-                    <p className="text-sm text-slate-400">Drop files here or click to browse</p>
+                    <p className="text-sm text-slate-400">Drop fisiere aici sau click pentru a naviga</p>
                     <p className="text-xs text-slate-500 mt-1">Max file size: 50MB</p>
                   </div>
                 </div>
 
-                <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white">Submit Quote Request</Button>
+                <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white">Trimite Cererea de Oferta</Button>
               </CardContent>
             </Card>
           </div>
