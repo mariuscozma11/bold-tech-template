@@ -53,29 +53,28 @@ const Services = () => {
               <div className="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center mb-4">
                 <Layers className="h-6 w-6 text-orange-500" />
               </div>
-              <CardTitle className="text-white">3D Printing</CardTitle>
+              <CardTitle className="text-white">Exemplu de serviciu</CardTitle>
               <CardDescription className="text-slate-400">
-                Advanced additive manufacturing for rapid prototyping and
-                production
+                Descriere scurtă a serviciului oferit de companie, care evidențiază avantajele sau specificul activității.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Technologies:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 1:</h4>
                 <p className="text-sm text-slate-300">
-                  SLA, SLS, FDM, Metal 3D Printing
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Materials:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 2:</h4>
                 <p className="text-sm text-slate-300">
-                  Resins, Nylon, PEEK, Metal Powders, Carbon Fiber
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Lead Time:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 3:</h4>
                 <p className="text-sm text-slate-300">
-                  24-72 hours for prototypes
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
             </CardContent>
@@ -87,29 +86,29 @@ const Services = () => {
                 <Box className="h-6 w-6 text-orange-500" />
               </div>
               <CardTitle className="text-white">
-                Sheet Metal Fabrication
+                Exemplu de serviciu
               </CardTitle>
               <CardDescription className="text-slate-400">
-                Precision cutting, forming, and welding for custom enclosures
+                Descriere scurtă a serviciului oferit de companie, care evidențiază avantajele sau specificul activității.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Processes:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 1:</h4>
                 <p className="text-sm text-slate-300">
-                  Laser Cutting, Bending, Welding, Powder Coating
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Thickness:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 2:</h4>
                 <p className="text-sm text-slate-300">
-                  0.5mm - 25mm depending on material
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Finishing:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 3:</h4>
                 <p className="text-sm text-slate-300">
-                  Anodizing, Plating, Painting, Passivation
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
             </CardContent>
@@ -120,28 +119,28 @@ const Services = () => {
               <div className="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="h-6 w-6 text-orange-500" />
               </div>
-              <CardTitle className="text-white">Rapid Prototyping</CardTitle>
+              <CardTitle className="text-white">Exemplu de serviciu</CardTitle>
               <CardDescription className="text-slate-400">
-                Fast iteration cycles to accelerate your product development
+                Descriere scurtă a serviciului oferit de companie, care evidențiază avantajele sau specificul activității.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Turnaround:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 1:</h4>
                 <p className="text-sm text-slate-300">
-                  1-5 days depending on complexity
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Services:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 2:</h4>
                 <p className="text-sm text-slate-300">
-                  Design Review, DFM Analysis, Testing Support
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Volume:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 3:</h4>
                 <p className="text-sm text-slate-300">
-                  1-100 pieces for validation
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
             </CardContent>
@@ -153,29 +152,29 @@ const Services = () => {
                 <Gauge className="h-6 w-6 text-orange-500" />
               </div>
               <CardTitle className="text-white">
-                Small Batch Production
+                Exemplu de serviciu
               </CardTitle>
               <CardDescription className="text-slate-400">
-                Bridge production for quantities from 10 to 10,000 pieces
+                Descriere scurtă a serviciului oferit de companie, care evidențiază avantajele sau specificul activității.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Volume Range:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 1:</h4>
                 <p className="text-sm text-slate-300">
-                  10 - 10,000 pieces per run
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Quality:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 2:</h4>
                 <p className="text-sm text-slate-300">
-                  ISO 9001:2015, AS9100, FDA registered
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Documentation:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 3:</h4>
                 <p className="text-sm text-slate-300">
-                  Full traceability, CoC, inspection reports
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
             </CardContent>
@@ -186,30 +185,28 @@ const Services = () => {
               <div className="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center mb-4">
                 <Wrench className="h-6 w-6 text-orange-500" />
               </div>
-              <CardTitle className="text-white">Post-Processing</CardTitle>
+              <CardTitle className="text-white">Exemplu de serviciu</CardTitle>
               <CardDescription className="text-slate-400">
-                Complete finishing services for production-ready parts
+                Descriere scurtă a serviciului oferit de companie, care evidențiază avantajele sau specificul activității.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">
-                  Surface Treatments:
-                </h4>
+                <h4 className="font-semibold text-white">Subsectiune 1:</h4>
                 <p className="text-sm text-slate-300">
-                  Anodizing, Plating, Heat Treatment
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Assembly:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 2:</h4>
                 <p className="text-sm text-slate-300">
-                  Hardware insertion, Sub-assembly
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-semibold text-white">Testing:</h4>
+                <h4 className="font-semibold text-white">Subsectiune 3:</h4>
                 <p className="text-sm text-slate-300">
-                  Dimensional inspection, Material testing
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </p>
               </div>
             </CardContent>

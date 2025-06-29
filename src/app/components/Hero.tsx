@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <section className="h-[100vh] relative py-20 lg:py-32 overflow-hidden">
+    <section className=" relative py-20 lg:py-32 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900" />
       <div className="container mx-auto px-4 lg:px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
